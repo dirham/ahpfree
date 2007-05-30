@@ -126,4 +126,9 @@ public class ModelImpl implements Model {
     {
         this.modelComments = modelComments;
     }
+    
+    public static void main(String args[])
+    {
+        
+    }
 }
