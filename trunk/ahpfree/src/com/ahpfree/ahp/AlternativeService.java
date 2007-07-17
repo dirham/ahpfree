@@ -1,5 +1,7 @@
 package com.ahpfree.ahp;
 
+import java.util.Collection;
+
 import com.ahpfree.ahp.model.interfaces.Alternative;
 
 /**
@@ -18,6 +20,19 @@ public interface AlternativeService {
 	 * @return the Alternative instance.
 	 */
 	Alternative getAlternative(String alternativeName);
+
+	/**
+	 * Retrieve an Alternative.
+	 * @param alternativeId to retrieve.
+	 * @return the Alternative instance.
+	 */
+	Alternative getAlternative(Integer alternativeId);
+
+	/**
+	 * Retrieve a collection of all Alternatives.
+	 * @return all Alternative instances.
+	 */
+	Collection<Alternative> getAllAlternatives();
 
 	/**
 	 * Add an Alternative.

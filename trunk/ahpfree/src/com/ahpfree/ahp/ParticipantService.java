@@ -1,5 +1,7 @@
 package com.ahpfree.ahp;
 
+import java.util.Collection;
+
 import com.ahpfree.ahp.model.interfaces.Participant;
 
 /**
@@ -13,11 +15,24 @@ public interface ParticipantService {
 	Participant createNewParticipant();
 
 	/**
-	 * Retrieve an Participant.
+	 * Retrieve a Participant by name.
 	 * @param participantName to retrieve.
 	 * @return the Participant instance.
 	 */
 	Participant getParticipant(String participantName);
+
+	/**
+	 * Retrieve a Participant by Id.
+	 * @param participantId to retrieve.
+	 * @return the Participant instance.
+	 */
+	Participant getParticipant(Integer participantId);
+
+	/**
+	 * Retrieve all Participants.
+	 * @return a collection of all Participant instances.
+	 */
+	Collection<Participant> getAllParticipants();
 
 	/**
 	 * Add an Participant.
