@@ -1,5 +1,7 @@
 package com.ahpfree.ahp;
 
+import java.util.Collection;
+
 import com.ahpfree.ahp.model.interfaces.Alternative;
 import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
 import com.ahpfree.ahp.model.interfaces.Criterion;
@@ -21,6 +23,19 @@ public interface CriteriaComparisonService {
 	 * @return the CriteriaComparison instance.
 	 */
 	CriteriaComparison getCriteriaComparison(Criterion dominantCriterion, Criterion passiveCriterion);
+
+	/**
+	 * Retrieve an CriteriaComparison.
+	 * @param comparisonId of the comparison.
+	 * @return the CriteriaComparison instance.
+	 */
+	CriteriaComparison getCriteriaComparison(Integer comparisonId);
+
+	/**
+	 * Retrieve all CriteriaComparisons.
+	 * @return a collection of all CriteriaComparison instances.
+	 */
+	Collection<CriteriaComparison> getAllCriteriaComparisons();
 
 	/**
 	 * Retrieve the next CriteriaComparison in sequence.

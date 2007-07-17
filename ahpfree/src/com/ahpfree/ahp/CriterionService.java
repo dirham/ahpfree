@@ -1,5 +1,7 @@
 package com.ahpfree.ahp;
 
+import java.util.Collection;
+
 import com.ahpfree.ahp.model.interfaces.Alternative;
 import com.ahpfree.ahp.model.interfaces.Criterion;
 
@@ -19,6 +21,19 @@ public interface CriterionService {
 	 * @return the Criterion instance.
 	 */
 	Criterion getCriterion(String criterionName);
+
+	/**
+	 * Retrieve an Criterion.
+	 * @param criterionId to retrieve.
+	 * @return the Criterion instance.
+	 */
+	Criterion getCriterion(Integer criterionId);
+
+	/**
+	 * Retrieve all Criteria.
+	 * @return all Criterion instances.
+	 */
+	Collection<Criterion> getAllCriteria();
 
 	/**
 	 * Add an Criterion.

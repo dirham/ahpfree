@@ -1,5 +1,7 @@
 package com.ahpfree.ahp;
 
+import java.util.Collection;
+
 import com.ahpfree.ahp.model.interfaces.Cluster;
 
 /**
@@ -18,6 +20,19 @@ public interface ClusterService {
 	 * @return the Cluster instance.
 	 */
 	Cluster getCluster(String clusterName);
+
+	/**
+	 * Retrieve an Cluster.
+	 * @param clusterId to retrieve.
+	 * @return the Cluster instance.
+	 */
+	Cluster getCluster(Integer clusterId);
+
+	/**
+	 * Retrieve all Clusters.
+	 * @return all Cluster instances.
+	 */
+	Collection<Cluster> getAllClusters();
 
 	/**
 	 * Add an Cluster.

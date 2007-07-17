@@ -1,5 +1,7 @@
 package com.ahpfree.ahp;
 
+import java.util.Collection;
+
 import com.ahpfree.ahp.model.interfaces.Alternative;
 import com.ahpfree.ahp.model.interfaces.AlternativeComparison;
 import com.ahpfree.ahp.model.interfaces.Criterion;
@@ -31,6 +33,12 @@ public interface AlternativeComparisonService {
 	 * @return the AlternativeComparison instance.
 	 */
 	AlternativeComparison getNextAlternativeComparison(Criterion dominantCriterion, Criterion passiveCriterion, Alternative alternative);
+
+	/**
+	 * Retrieve all AlternativeComparisons.
+	 * @return a collection of all AlternativeComparison instances.
+	 */
+	Collection<AlternativeComparison> getAllAlternativeComparisons();
 
 	/**
 	 * Add an AlternativeComparison.
