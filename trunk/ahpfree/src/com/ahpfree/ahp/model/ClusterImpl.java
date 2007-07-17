@@ -7,6 +7,8 @@ import java.util.HashMap;
 
 import com.ahpfree.ahp.model.interfaces.Cluster;
 import com.ahpfree.ahp.model.interfaces.Criterion;
+import com.ahpfree.ahp.model.interfaces.Participant;
+import com.ahpfree.ahp.model.interfaces.Vote;
 
 /**
  * A cluster is a comparison set within a decision hierarchy.
@@ -29,10 +31,31 @@ public class ClusterImpl implements Cluster {
     private HashMap<Integer, Criterion> clusterCriteria;
 
     /**
+     * The collection of criteria comparison votes for this cluster.
+     */
+    private HashMap<Participant, Vote> clusterParticipantComparisonVotes;
+
+    /**
      * ClusterImpl Constructor.
      */
     public ClusterImpl()
     {
+    }
+
+    /**
+     * @return Returns the clusterParticipantComparisonVotes.
+     */
+    public HashMap<Participant, Vote> getClusterParticipantComparisonVotes()
+    {
+        return clusterParticipantComparisonVotes;
+    }
+
+    /**
+     * @param clusterParticipantComparisonVotes The clusterParticipantComparisonVotes to set.
+     */
+    public void setClusterParticipantComparisonVotes(HashMap<Participant, Vote> clusterParticipantComparisonVotes)
+    {
+        this.clusterParticipantComparisonVotes = clusterParticipantComparisonVotes;
     }
 
     /**

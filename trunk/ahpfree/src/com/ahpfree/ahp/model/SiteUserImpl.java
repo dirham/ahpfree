@@ -9,7 +9,7 @@ import com.ahpfree.ahp.model.interfaces.ModelComment;
 import com.ahpfree.ahp.model.interfaces.SiteUser;
 
 /**
- *
+ * {@inheritDoc}
  */
 public class SiteUserImpl implements SiteUser
 {
@@ -150,4 +150,18 @@ public class SiteUserImpl implements SiteUser
     {
         this.username = username;
     }
+
+    /**
+     * @return the participant Ids of this user in models.
+     */
+	public List<Integer> getParticipantIds() {
+		return participantIds;
+	}
+
+	/**
+	 * @param participantIds of this user in models.
+	 */
+	public void setParticipantIds(List<Integer> participantIds) {
+		this.participantIds = participantIds;
+	}
 }

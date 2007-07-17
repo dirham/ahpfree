@@ -7,7 +7,7 @@ import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
 import com.ahpfree.ahp.model.interfaces.Criterion;
 
 /**
- * A pairwise comparison vote between two criteria in a decision model.
+ * {@inheritDoc}
  */
 public class CriteriaComparisonImpl extends VoteImpl implements CriteriaComparison {
     /**
@@ -21,4 +21,18 @@ public class CriteriaComparisonImpl extends VoteImpl implements CriteriaComparis
     public CriteriaComparisonImpl()
     {
     }
+
+    /**
+     * @return the passive criterion in the comparison set.
+     */
+	public Criterion getPassiveCriterion() {
+		return passiveCriterion;
+	}
+
+	/**
+	 * @param passiveCriterion in the comparison set.
+	 */
+	public void setPassiveCriterion(Criterion passiveCriterion) {
+		this.passiveCriterion = passiveCriterion;
+	}
 }

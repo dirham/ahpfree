@@ -1,0 +1,50 @@
+package com.ahpfree.ahp;
+
+import com.ahpfree.ahp.model.interfaces.Alternative;
+import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
+import com.ahpfree.ahp.model.interfaces.Criterion;
+
+/**
+ * Service class to provide access to CriteriaComparison instances.
+ */
+public interface CriteriaComparisonService {
+	/**
+	 * Create a new instance of an CriteriaComparison.
+	 * @return a new instance of an CriteriaComparison.
+	 */
+	Alternative createNewCriteriaComparison();
+
+	/**
+	 * Retrieve an CriteriaComparison.
+	 * @param dominantCriterion in the comparison.
+	 * @param passiveCriterion in the comparison.
+	 * @return the CriteriaComparison instance.
+	 */
+	CriteriaComparison getCriteriaComparison(Criterion dominantCriterion, Criterion passiveCriterion);
+
+	/**
+	 * Retrieve the next CriteriaComparison in sequence.
+	 * @param dominantCriterion in the comparison.
+	 * @param passiveCriterion in the comparison.
+	 * @return the CriteriaComparison instance.
+	 */
+	CriteriaComparison getNextCriteriaComparison(Criterion dominantCriterion, Criterion passiveCriterion);
+
+	/**
+	 * Add an CriteriaComparison.
+	 * @param criteriaComparison to add.
+	 */
+	void addCriteriaComparison(CriteriaComparison criteriaComparison);
+
+	/**
+	 * Update an CriteriaComparison.
+	 * @param criteriaComparison to update.
+	 */
+	void updateCriteriaComparison(CriteriaComparison criteriaComparison);
+
+	/**
+	 * Delete an CriteriaComparison.
+	 * @param criteriaComparison to delete.
+	 */
+	void deleteCriteriaComparison(CriteriaComparison criteriaComparison);
+}
