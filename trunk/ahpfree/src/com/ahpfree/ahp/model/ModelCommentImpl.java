@@ -5,9 +5,6 @@ package com.ahpfree.ahp.model;
 
 import java.util.Date;
 
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-import com.ahpfree.ahp.model.interfaces.Participant;
-
 /**
  *
  */

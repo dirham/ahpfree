@@ -3,8 +3,6 @@
  */
 package com.ahpfree.ahp.model;
 
-import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
-import com.ahpfree.ahp.model.interfaces.Criterion;
 
 /**
  * {@inheritDoc}

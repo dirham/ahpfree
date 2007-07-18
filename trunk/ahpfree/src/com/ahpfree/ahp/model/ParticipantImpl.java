@@ -6,13 +6,6 @@ package com.ahpfree.ahp.model;
 import java.util.HashMap;
 import java.util.List;
 
-import com.ahpfree.ahp.model.interfaces.AlternativeComparison;
-import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
-import com.ahpfree.ahp.model.interfaces.Criterion;
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-import com.ahpfree.ahp.model.interfaces.Participant;
-import com.ahpfree.ahp.model.interfaces.Rating;
-
 /**
  * A participant is an individual voting in the decision model.
  */

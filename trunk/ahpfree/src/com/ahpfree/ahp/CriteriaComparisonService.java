@@ -2,9 +2,9 @@ package com.ahpfree.ahp;
 
 import java.util.Collection;
 
-import com.ahpfree.ahp.model.interfaces.Alternative;
-import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
-import com.ahpfree.ahp.model.interfaces.Criterion;
+import com.ahpfree.ahp.model.Alternative;
+import com.ahpfree.ahp.model.CriteriaComparison;
+import com.ahpfree.ahp.model.Criterion;
 
 /**
  * Service class to provide access to CriteriaComparison instances.

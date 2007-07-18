@@ -5,12 +5,6 @@ package com.ahpfree.ahp.model;
 
 import java.util.List;
 
-import com.ahpfree.ahp.model.interfaces.Alternative;
-import com.ahpfree.ahp.model.interfaces.Criterion;
-import com.ahpfree.ahp.model.interfaces.Model;
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-import com.ahpfree.ahp.model.interfaces.Participant;
-
 /**
  * The model is the root class of an AHP decision in the system.
  */
@@ -126,9 +120,9 @@ public class ModelImpl implements Model {
     {
         this.modelComments = modelComments;
     }
-    
+
     public static void main(String args[])
     {
-        
+
     }
 }
