@@ -1,7 +1,7 @@
 /**
  *
  */
-package com.ahpfree.ahp.model.interfaces;
+package com.ahpfree.ahp.model;
 
 /**
  *

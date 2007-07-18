@@ -3,8 +3,6 @@
  */
 package com.ahpfree.ahp.model;
 
-import com.ahpfree.ahp.model.interfaces.Alternative;
-import com.ahpfree.ahp.model.interfaces.Rating;
 
 
 /**

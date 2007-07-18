@@ -2,8 +2,8 @@ package com.ahpfree.ahp;
 
 import java.util.Collection;
 
-import com.ahpfree.ahp.model.interfaces.Alternative;
-import com.ahpfree.ahp.model.interfaces.Criterion;
+import com.ahpfree.ahp.model.Alternative;
+import com.ahpfree.ahp.model.Criterion;
 
 /**
  * Service class to provide access to Criterion instances.

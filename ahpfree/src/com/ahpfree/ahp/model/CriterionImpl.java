@@ -6,11 +6,6 @@ package com.ahpfree.ahp.model;
 import java.util.HashMap;
 import java.util.List;
 
-import com.ahpfree.ahp.model.interfaces.CriteriaComparison;
-import com.ahpfree.ahp.model.interfaces.Criterion;
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-import com.ahpfree.ahp.model.interfaces.RatingScale;
-
 /**
  * A criterion is a strategic or tactical factor in the decision to be made.
  */

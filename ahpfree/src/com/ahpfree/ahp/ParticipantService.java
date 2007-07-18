@@ -2,7 +2,7 @@ package com.ahpfree.ahp;
 
 import java.util.Collection;
 
-import com.ahpfree.ahp.model.interfaces.Participant;
+import com.ahpfree.ahp.model.Participant;
 
 /**
  * Service class to provide access to Participant instances.

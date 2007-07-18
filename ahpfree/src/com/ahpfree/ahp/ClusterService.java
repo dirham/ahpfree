@@ -2,7 +2,7 @@ package com.ahpfree.ahp;
 
 import java.util.Collection;
 
-import com.ahpfree.ahp.model.interfaces.Cluster;
+import com.ahpfree.ahp.model.Cluster;
 
 /**
  * Service class to provide access to Cluster instances.

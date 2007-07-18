@@ -2,7 +2,7 @@ package com.ahpfree.ahp;
 
 import java.util.Collection;
 
-import com.ahpfree.ahp.model.interfaces.Alternative;
+import com.ahpfree.ahp.model.Alternative;
 
 /**
  * Service class to provide access to Alternative instances.

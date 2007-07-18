@@ -3,9 +3,6 @@
  */
 package com.ahpfree.ahp.model;
 
-import com.ahpfree.ahp.model.interfaces.Criterion;
-import com.ahpfree.ahp.model.interfaces.Participant;
-import com.ahpfree.ahp.model.interfaces.Vote;
 
 /**
  *

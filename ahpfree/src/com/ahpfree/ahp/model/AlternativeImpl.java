@@ -6,10 +6,6 @@ package com.ahpfree.ahp.model;
 import java.util.HashMap;
 import java.util.List;
 
-import com.ahpfree.ahp.model.interfaces.Alternative;
-import com.ahpfree.ahp.model.interfaces.Criterion;
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-
 /**
  * An alternative represents an item between which participants are trying to decide.
  */

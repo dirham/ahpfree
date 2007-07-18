@@ -5,11 +5,6 @@ package com.ahpfree.ahp.model;
 
 import java.util.HashMap;
 
-import com.ahpfree.ahp.model.interfaces.Cluster;
-import com.ahpfree.ahp.model.interfaces.Criterion;
-import com.ahpfree.ahp.model.interfaces.Participant;
-import com.ahpfree.ahp.model.interfaces.Vote;
-
 /**
  * A cluster is a comparison set within a decision hierarchy.
  */

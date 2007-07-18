@@ -5,9 +5,6 @@ package com.ahpfree.ahp.model;
 
 import java.util.List;
 
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-import com.ahpfree.ahp.model.interfaces.RatingScaleThreshold;
-
 /**
  * The RatingScaleThreshold is a specific point within the 0 to 1 distribution of a rating scale,
  * allowing participants in the model to say specifically how well an alternative meets a criterion.

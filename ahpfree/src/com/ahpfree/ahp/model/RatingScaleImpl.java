@@ -5,10 +5,6 @@ package com.ahpfree.ahp.model;
 
 import java.util.List;
 
-import com.ahpfree.ahp.model.interfaces.ModelComment;
-import com.ahpfree.ahp.model.interfaces.RatingScale;
-import com.ahpfree.ahp.model.interfaces.RatingScaleThreshold;
-
 /**
  *
  */
