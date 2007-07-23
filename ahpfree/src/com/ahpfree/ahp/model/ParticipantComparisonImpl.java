@@ -8,7 +8,7 @@ package com.ahpfree.ahp.model;
  * A representation of a participant's voting matrix within
  * a particular comparison set in the decision hierarchy.
  */
-public class ParticipantComparisonSetImpl implements ParticipantComparisonSet
+public class ParticipantComparisonImpl implements ParticipantComparison
 {
     /**
      * The matrix of participant votes for this comparison set.
@@ -18,22 +18,22 @@ public class ParticipantComparisonSetImpl implements ParticipantComparisonSet
     /**
      * Participant-specific comments about this comparison set.
      */
-    private ModelComment participantComparisonSetComment;
+    private ModelComment participantComparisonComment;
 
     /**
-     * @return Returns the participantComparisonSetComment.
+     * @return Returns the participantComparisonComment.
      */
-    public ModelComment getParticipantComparisonSetComment()
+    public ModelComment getParticipantComparisonComment()
     {
-        return participantComparisonSetComment;
+        return participantComparisonComment;
     }
 
     /**
-     * @param participantComparisonSetComment The participantComparisonSetComment to set.
+     * @param participantComparisonComment The participantComparisonComment to set.
      */
-    public void setParticipantComparisonSetComment(ModelComment participantComparisonSetComment)
+    public void setParticipantComparisonComment(ModelComment participantComparisonComment)
     {
-        this.participantComparisonSetComment = participantComparisonSetComment;
+        this.participantComparisonComment = participantComparisonComment;
     }
 
     /**
@@ -53,9 +53,9 @@ public class ParticipantComparisonSetImpl implements ParticipantComparisonSet
     }
 
     /**
-     * ParticipantComparisonSetImpl Constructor.
+     * ParticipantComparisonImpl Constructor.
      */
-    public ParticipantComparisonSetImpl()
+    public ParticipantComparisonImpl()
     {
     }
 }
